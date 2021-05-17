@@ -1,0 +1,37 @@
+.commentSection {
+  border-top-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.commentListSection {
+  padding: 0;
+}
+
+.listComment {
+  list-style-type: none;
+  display: flex;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: black;
+}
+
+.comment {
+  margin-left: 15px;
+}
+
+.name {
+  margin-right: 10px;
+  font-weight: bold;
+}
