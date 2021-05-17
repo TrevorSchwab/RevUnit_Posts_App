@@ -6,7 +6,7 @@ const PostDetails = () => {
   const [comments, setComments] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const location = useLocation();
+  const location = useLocation(); // I decided to pass the post object through location instead of refetching by using the id passed through useParams()
   const { post } = location;
 
   useEffect(() => {
